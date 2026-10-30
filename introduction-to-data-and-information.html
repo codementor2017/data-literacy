@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Topic 1 · Introduction to Data & Information</title>
-    <style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Topic 1 · Introduction to Data & Information</title>
+        <style>
         * {
             margin: 0;
             padding: 0;
@@ -926,674 +926,807 @@
             }
         }
     </style>
-</head>
-<body>
-
-    <!-- ============================================================ -->
-    <!--  WEBPAGE (LESSON) VIEW                                       -->
-    <!-- ============================================================ -->
-    <div class="webpage" id="webpageView">
-
-        <!-- Top bar -->
-        <div class="top-bar">
-            <a href="index.html" class="back-home">← Back to Main Page</a>
-            <div class="top-actions">
-                <span class="topic-pill">TOPIC 1 · DATA LITERACY</span>
-                <button class="start-btn" onclick="startPresentation()">▶ Start Presentation</button>
-            </div>
-        </div>
-
-        <!-- Hero -->
-        <div class="web-hero">
-            <div class="big-icon">📊🔍</div>
-            <h1>Introduction to Data<br>&amp; Information</h1>
-            <p class="hero-sub">Grade 7 · Data Detectives Unit</p>
-            <div class="hero-tagline">
-                💬 “Data tells a story. Your job is to find it, check it, and tell it clearly.”
-            </div>
-            <div class="hero-badges">
-                <div class="hero-badge"><span>📥</span> Collect</div>
-                <div class="hero-badge"><span>⚙️</span> Process</div>
-                <div class="hero-badge"><span>🔍</span> Evaluate</div>
-                <div class="hero-badge"><span>📢</span> Present</div>
-            </div>
-        </div>
-
-        <!-- SECTION 1 · WHAT IS DATA -->
-        <section class="web-section">
-            <div class="web-section-header">
-                <span class="step-tag">Part 1</span>
-                <h2>What is <span style="color:#1e6f9f;">Data</span>?</h2>
-            </div>
-            <p style="font-size:1.15rem;">
-                <strong>Data</strong> is a collection of <strong>raw facts</strong> — numbers, words, or observations — with no meaning attached yet.
-            </p>
-            <div class="info-grid">
-                <div class="info-box data-box">
-                    <h3><span class="icon-lg">🔢</span> Numbers</h3>
-                    <ul>
-                        <li>25, 30, 28, 27</li>
-                        <li>87, 92, 78, 85</li>
-                        <li>3.5, 4.2, 3.9</li>
-                    </ul>
-                </div>
-                <div class="info-box data-box">
-                    <h3><span class="icon-lg">📝</span> Words &amp; Labels</h3>
-                    <ul>
-                        <li>Apple, Banana, Orange</li>
-                        <li>Red, Blue, Green</li>
-                        <li>Yes, No, Maybe</li>
-                    </ul>
-                </div>
-                <div class="info-box data-box">
-                    <h3><span class="icon-lg">👀</span> Observations</h3>
-                    <ul>
-                        <li>“It rained today.”</li>
-                        <li>“20 students raised their hands.”</li>
-                        <li>“The plant grew 2 cm.”</li>
-                    </ul>
-                </div>
-                <div class="info-box data-box">
-                    <h3><span class="icon-lg">📋</span> Lists &amp; Records</h3>
-                    <ul>
-                        <li>Names on a class roll</li>
-                        <li>Scores in a gradebook</li>
-                        <li>Steps counted on a watch</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="key-points">
-                <h3>💡 Key Idea</h3>
-                <ul>
-                    <li>Data is <strong>raw</strong> — it has not been organised or explained yet.</li>
-                    <li>On its own, data does <strong>not</strong> tell us much.</li>
-                    <li>We need to <strong>process</strong> data to turn it into something useful.</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- SECTION 2 · WHAT IS INFORMATION -->
-        <section class="web-section">
-            <div class="web-section-header">
-                <span class="step-tag">Part 2</span>
-                <h2>What is <span style="color:#0f7a4d;">Information</span>?</h2>
-            </div>
-            <p style="font-size:1.15rem;">
-                <strong>Information</strong> is <strong>data that has been organised and given meaning</strong> — so we can understand it and use it.
-            </p>
-            <div class="info-grid">
-                <div class="info-box info-box2">
-                    <h3><span class="icon-lg">🧠</span> Data + Meaning</h3>
-                    <p>When we sort, count, average, or explain data, it becomes information.</p>
-                </div>
-                <div class="info-box info-box2">
-                    <h3><span class="icon-lg">🎯</span> Useful &amp; Clear</h3>
-                    <p>Information answers questions and helps us make decisions.</p>
-                </div>
-            </div>
-            <div class="example-strip">
-                <div class="example-chip">25, 30, 28, 27</div>
-                <div class="arrow-row">➡️</div>
-                <div class="example-chip meaning">“The average temperature this week was 27.5°C.”</div>
-            </div>
-            <div class="key-points">
-                <h3>💡 Key Idea</h3>
-                <ul>
-                    <li>Information is <strong>data with context and meaning</strong>.</li>
-                    <li>It helps us <strong>answer questions</strong> and <strong>make decisions</strong>.</li>
-                    <li>We create information by <strong>processing</strong> raw data.</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- SECTION 3 · DATA VS INFORMATION -->
-        <section class="web-section">
-            <div class="web-section-header">
-                <span class="step-tag">Part 3</span>
-                <h2>Data <span style="color:#7fb3d8;">vs.</span> Information</h2>
-            </div>
-            <div class="info-grid">
-                <div class="info-box data-box">
-                    <h3><span class="icon-lg">📦</span> Data</h3>
-                    <ul>
-                        <li>Raw facts</li>
-                        <li>No meaning yet</li>
-                        <li>Just numbers, words, or observations</li>
-                        <li><strong>Example:</strong> 25, 30, 28, 27</li>
-                    </ul>
-                </div>
-                <div class="info-box info-box2">
-                    <h3><span class="icon-lg">💡</span> Information</h3>
-                    <ul>
-                        <li>Data that has been organised</li>
-                        <li>Has meaning and context</li>
-                        <li>Helps us understand and decide</li>
-                        <li><strong>Example:</strong> “The average temperature this week was 27.5°C.”</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="discussion-box">
-                <h3>🤔 Think About It</h3>
-                <ul>
-                    <li>Which one can you use to make a decision — data or information?</li>
-                    <li>Can the same data become different information in different situations?</li>
-                    <li>Why is it important to know the difference?</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- SECTION 4 · WHY DATA MATTERS -->
-        <section class="web-section">
-            <div class="web-section-header">
-                <span class="step-tag">Part 4</span>
-                <h2>Why Data Matters in Daily Life</h2>
-            </div>
-            <p style="text-align:center; font-size:1.1rem;">
-                Data is <strong>everywhere</strong>. It helps us understand the world and make better choices.
-            </p>
-            <div class="life-grid">
-                <div class="life-card">
-                    <div class="life-icon">🌦️</div>
-                    <h4>Weather</h4>
-                    <p>Temperature and rainfall data help us plan our day.</p>
-                </div>
-                <div class="life-card">
-                    <div class="life-icon">🛒</div>
-                    <h4>Shopping</h4>
-                    <p>Prices and sales data help us budget and compare.</p>
-                </div>
-                <div class="life-card">
-                    <div class="life-icon">🏥</div>
-                    <h4>Health</h4>
-                    <p>Heart rate and step data help us stay fit.</p>
-                </div>
-                <div class="life-card">
-                    <div class="life-icon">🏫</div>
-                    <h4>School</h4>
-                    <p>Test scores show us where to improve.</p>
-                </div>
-                <div class="life-card">
-                    <div class="life-icon">⚽</div>
-                    <h4>Sports</h4>
-                    <p>Goals and stats help coaches make decisions.</p>
-                </div>
-                <div class="life-card">
-                    <div class="life-icon">📱</div>
-                    <h4>Social Media</h4>
-                    <p>Likes and views show what people enjoy.</p>
-                </div>
-            </div>
-            <div class="key-points">
-                <h3>💡 Key Idea</h3>
-                <ul>
-                    <li>Data helps us <strong>understand</strong>, <strong>compare</strong>, and <strong>decide</strong>.</li>
-                    <li>It turns everyday observations into useful knowledge.</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- SECTION 5 · THE DATA CYCLE -->
-        <section class="web-section">
-            <div class="web-section-header">
-                <span class="step-tag">Part 5</span>
-                <h2>The Data Cycle</h2>
-            </div>
-            <p style="text-align:center; font-size:1.1rem;">
-                Every data task follows the same <strong>four steps</strong>:
-            </p>
-            <div class="cycle-flow">
-                <div class="cycle-card">
-                    <div class="step-num">1</div>
-                    <div class="cycle-icon">📥</div>
-                    <h4>Collect</h4>
-                    <p>Gather raw data using surveys, observations, or experiments.</p>
-                </div>
-                <div class="cycle-arrow">→</div>
-                <div class="cycle-card">
-                    <div class="step-num">2</div>
-                    <div class="cycle-icon">⚙️</div>
-                    <h4>Process</h4>
-                    <p>Organise, sort, count, and calculate to turn data into information.</p>
-                </div>
-                <div class="cycle-arrow">→</div>
-                <div class="cycle-card">
-                    <div class="step-num">3</div>
-                    <div class="cycle-icon">🔍</div>
-                    <h4>Evaluate</h4>
-                    <p>Check if the data is accurate, complete, fair, and relevant.</p>
-                </div>
-                <div class="cycle-arrow">→</div>
-                <div class="cycle-card">
-                    <div class="step-num">4</div>
-                    <div class="cycle-icon">📢</div>
-                    <h4>Present</h4>
-                    <p>Share your findings clearly using charts, tables, or reports.</p>
-                </div>
-            </div>
-            <div class="key-points">
-                <h3>💡 Key Idea</h3>
-                <ul>
-                    <li>The data cycle is a <strong>loop</strong> — we often go back and collect more data.</li>
-                    <li>Every step is important — skipping one weakens the result.</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- SECTION 6 · ACTIVITY -->
-        <section class="web-section">
-            <div class="web-section-header">
-                <span class="step-tag">Activity</span>
-                <h2>Let's Practise! 🎯</h2>
-            </div>
-            <div class="activity-box">
-                <h3>📝 Activity 1: Data or Information?</h3>
-                <ol>
-                    <li>“32, 28, 30, 35” — is this <strong>data</strong> or <strong>information</strong>? Why?</li>
-                    <li>“The average class score was 78%.” — data or information?</li>
-                    <li>Write your own example of <strong>data</strong>.</li>
-                    <li>Turn your data into a sentence that makes it <strong>information</strong>.</li>
-                </ol>
-            </div>
-            <div class="activity-box">
-                <h3>🔍 Activity 2: Spot the Data Cycle</h3>
-                <ol>
-                    <li>Think of a time you collected data (e.g., counting your steps).</li>
-                    <li>Which of the four steps did you do?</li>
-                    <li>Which steps did you skip? What could you improve?</li>
-                </ol>
-            </div>
-            <div class="discussion-box">
-                <h3>💬 Class Discussion</h3>
-                <ul>
-                    <li>Can you think of a time when data was misleading?</li>
-                    <li>Why do we need to <strong>evaluate</strong> data before presenting it?</li>
-                    <li>How could the data cycle help you in a school project?</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- SECTION 7 · SUMMARY -->
-        <section class="web-section">
-            <div class="web-section-header">
-                <span class="step-tag">Summary</span>
-                <h2>What We Learned Today</h2>
-            </div>
-            <div class="key-points">
-                <h3>📌 Key Takeaways</h3>
-                <ul>
-                    <li><strong>Data</strong> = raw facts (numbers, words, observations) with no meaning yet.</li>
-                    <li><strong>Information</strong> = data that has been organised and given meaning.</li>
-                    <li>Data becomes information when we <strong>process</strong> it.</li>
-                    <li>Data matters in <strong>weather, shopping, health, school, sports</strong>, and more.</li>
-                    <li>The <strong>data cycle</strong> = Collect → Process → Evaluate → Present.</li>
-                </ul>
-            </div>
-            <div class="outcome-banner">
-                <span class="outcome-icon">🎓</span>
-                <span><strong>Student Outcome:</strong> You can now explain the difference between data and information, and describe the four steps of the data cycle.</span>
-            </div>
-        </section>
+    </head>
+    <body>
 
         <!-- ============================================================ -->
-        <!-- TEACHER INSTRUCTIONS SECTION (SIMPLE)                        -->
+        <!--  WEBPAGE (LESSON) VIEW                                       -->
         <!-- ============================================================ -->
-        <section class="teacher-section" id="teacher-instructions">
-            <div class="teacher-header">
-                <span class="teacher-icon">👩‍🏫</span>
-                <h2>Teacher Instructions</h2>
-            </div>
-            <div class="teacher-body">
-                <div class="teacher-note" contenteditable="true">
-                    Take the ZipGrade quiz.<br>
-                    Submit the work on time.
+        <div class="webpage" id="webpageView">
+
+            <!-- Top bar -->
+            <div class="top-bar">
+                <a href="index.html" class="back-home">← Back to Main Page</a>
+                <div class="top-actions">
+                    <span class="topic-pill">TOPIC 1 · DATA LITERACY</span>
+                    <button class="start-btn" onclick="startPresentation()">▶
+                        Start Presentation</button>
                 </div>
-                <span class="edit-hint">✏️ Click to edit. Changes are temporary (refresh will reset).</span>
             </div>
-        </section>
 
-        <!-- CTA to start presentation -->
-        <div class="present-cta">
-            <h3>🎬 Ready to present?</h3>
-            <p>Switch to full-screen presentation mode with slides and keyboard navigation.</p>
-            <button class="start-btn" onclick="startPresentation()">▶ Start Presentation</button>
-        </div>
-    </div>
-
-    <!-- ============================================================ -->
-    <!--  PRESENTATION MODE                                           -->
-    <!-- ============================================================ -->
-    <div class="presentation" id="presentationView">
-        <div class="presentation-inner">
-
-            <button class="exit-btn" onclick="exitPresentation()">✕ Exit Presentation</button>
-
-            <!-- SLIDE 1 · TITLE -->
-            <section class="slide active" id="slide-1">
-                <div class="hero-slide">
-                    <div class="big-icon">📊🔍</div>
-                    <h1>Introduction to Data<br>&amp; Information</h1>
-                    <p class="hero-sub">Grade 7 · Data Detectives Unit</p>
-                    <div class="hero-tagline">
-                        💬 “Data tells a story. Your job is to find it, check it, and tell it clearly.”
-                    </div>
-                    <div class="hero-badges">
-                        <div class="hero-badge"><span>📥</span> Collect</div>
-                        <div class="hero-badge"><span>⚙️</span> Process</div>
-                        <div class="hero-badge"><span>🔍</span> Evaluate</div>
-                        <div class="hero-badge"><span>📢</span> Present</div>
-                    </div>
+            <!-- Hero -->
+            <div class="web-hero">
+                <div class="big-icon">📊🔍</div>
+                <h1>Introduction to Data<br>&amp; Information</h1>
+                <p class="hero-sub">Grade 7 · Data Detectives Unit</p>
+                <div class="hero-tagline">
+                    💬 “Data tells a story. Your job is to find it, check it,
+                    and tell it clearly.”
                 </div>
-            </section>
+                <div class="hero-badges">
+                    <div class="hero-badge"><span>📥</span> Collect</div>
+                    <div class="hero-badge"><span>⚙️</span> Process</div>
+                    <div class="hero-badge"><span>🔍</span> Evaluate</div>
+                    <div class="hero-badge"><span>📢</span> Present</div>
+                </div>
+            </div>
 
-            <!-- SLIDE 2 · WHAT IS DATA -->
-            <section class="slide" id="slide-2">
-                <div class="slide-header">
-                    <span class="slide-num">PART 1</span>
+            <!-- SECTION 1 · WHAT IS DATA -->
+            <section class="web-section">
+                <div class="web-section-header">
+                    <span class="step-tag">Part 1</span>
                     <h2>What is <span style="color:#1e6f9f;">Data</span>?</h2>
-                    <div class="title-divider"></div>
                 </div>
-                <div class="slide-body">
-                    <p style="font-size:1.2rem; text-align:center; margin-bottom:1.5rem;">
-                        <strong>Data</strong> is a collection of <strong>raw facts</strong> — numbers, words, or observations — with no meaning attached yet.
-                    </p>
-                    <div class="info-grid">
-                        <div class="info-box data-box">
-                            <h3><span class="icon-lg">🔢</span> Numbers</h3>
-                            <ul>
-                                <li>25, 30, 28, 27</li>
-                                <li>87, 92, 78, 85</li>
-                                <li>3.5, 4.2, 3.9</li>
-                            </ul>
-                        </div>
-                        <div class="info-box data-box">
-                            <h3><span class="icon-lg">📝</span> Words &amp; Labels</h3>
-                            <ul>
-                                <li>Apple, Banana, Orange</li>
-                                <li>Red, Blue, Green</li>
-                                <li>Yes, No, Maybe</li>
-                            </ul>
-                        </div>
-                        <div class="info-box data-box">
-                            <h3><span class="icon-lg">👀</span> Observations</h3>
-                            <ul>
-                                <li>“It rained today.”</li>
-                                <li>“20 students raised their hands.”</li>
-                                <li>“The plant grew 2 cm.”</li>
-                            </ul>
-                        </div>
-                        <div class="info-box data-box">
-                            <h3><span class="icon-lg">📋</span> Lists &amp; Records</h3>
-                            <ul>
-                                <li>Names on a class roll</li>
-                                <li>Scores in a gradebook</li>
-                                <li>Steps counted on a watch</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="key-points">
-                        <h3>💡 Key Idea</h3>
+                <p style="font-size:1.15rem;">
+                    <strong>Data</strong> is a collection of <strong>raw
+                        facts</strong> — numbers, words, or observations — with
+                    no meaning attached yet.
+                </p>
+                <div class="info-grid">
+                    <div class="info-box data-box">
+                        <h3><span class="icon-lg">🔢</span> Numbers</h3>
                         <ul>
-                            <li>Data is <strong>raw</strong> — it has not been organised or explained yet.</li>
-                            <li>On its own, data does <strong>not</strong> tell us much.</li>
-                            <li>We need to <strong>process</strong> data to turn it into something useful.</li>
+                            <li>25, 30, 28, 27</li>
+                            <li>87, 92, 78, 85</li>
+                            <li>3.5, 4.2, 3.9</li>
+                        </ul>
+                    </div>
+                    <div class="info-box data-box">
+                        <h3><span class="icon-lg">📝</span> Words &amp;
+                            Labels</h3>
+                        <ul>
+                            <li>Apple, Banana, Orange</li>
+                            <li>Red, Blue, Green</li>
+                            <li>Yes, No, Maybe</li>
+                        </ul>
+                    </div>
+                    <div class="info-box data-box">
+                        <h3><span class="icon-lg">👀</span> Observations</h3>
+                        <ul>
+                            <li>“It rained today.”</li>
+                            <li>“20 students raised their hands.”</li>
+                            <li>“The plant grew 2 cm.”</li>
+                        </ul>
+                    </div>
+                    <div class="info-box data-box">
+                        <h3><span class="icon-lg">📋</span> Lists &amp;
+                            Records</h3>
+                        <ul>
+                            <li>Names on a class roll</li>
+                            <li>Scores in a gradebook</li>
+                            <li>Steps counted on a watch</li>
                         </ul>
                     </div>
                 </div>
+                <div class="key-points">
+                    <h3>💡 Key Idea</h3>
+                    <ul>
+                        <li>Data is <strong>raw</strong> — it has not been
+                            organised or explained yet.</li>
+                        <li>On its own, data does <strong>not</strong> tell us
+                            much.</li>
+                        <li>We need to <strong>process</strong> data to turn it
+                            into something useful.</li>
+                    </ul>
+                </div>
             </section>
 
-            <!-- SLIDE 3 · WHAT IS INFORMATION -->
-            <section class="slide" id="slide-3">
-                <div class="slide-header">
-                    <span class="slide-num">PART 2</span>
-                    <h2>What is <span style="color:#0f7a4d;">Information</span>?</h2>
-                    <div class="title-divider"></div>
+            <!-- SECTION 2 · WHAT IS INFORMATION -->
+            <section class="web-section">
+                <div class="web-section-header">
+                    <span class="step-tag">Part 2</span>
+                    <h2>What is <span
+                            style="color:#0f7a4d;">Information</span>?</h2>
                 </div>
-                <div class="slide-body">
-                    <p style="font-size:1.2rem; text-align:center; margin-bottom:1.5rem;">
-                        <strong>Information</strong> is <strong>data that has been organised and given meaning</strong> — so we can understand it and use it.
-                    </p>
-                    <div class="info-grid">
-                        <div class="info-box info-box2">
-                            <h3><span class="icon-lg">🧠</span> Data + Meaning</h3>
-                            <p>When we sort, count, average, or explain data, it becomes information.</p>
-                        </div>
-                        <div class="info-box info-box2">
-                            <h3><span class="icon-lg">🎯</span> Useful &amp; Clear</h3>
-                            <p>Information answers questions and helps us make decisions.</p>
-                        </div>
+                <p style="font-size:1.15rem;">
+                    <strong>Information</strong> is <strong>data that has been
+                        organised and given meaning</strong> — so we can
+                    understand it and use it.
+                </p>
+                <div class="info-grid">
+                    <div class="info-box info-box2">
+                        <h3><span class="icon-lg">🧠</span> Data + Meaning</h3>
+                        <p>When we sort, count, average, or explain data, it
+                            becomes information.</p>
                     </div>
-                    <div class="example-strip">
-                        <div class="example-chip">25, 30, 28, 27</div>
-                        <div class="arrow-row">➡️</div>
-                        <div class="example-chip meaning">“The average temperature this week was 27.5°C.”</div>
+                    <div class="info-box info-box2">
+                        <h3><span class="icon-lg">🎯</span> Useful &amp;
+                            Clear</h3>
+                        <p>Information answers questions and helps us make
+                            decisions.</p>
                     </div>
-                    <div class="key-points">
-                        <h3>💡 Key Idea</h3>
+                </div>
+                <div class="example-strip">
+                    <div class="example-chip">25, 30, 28, 27</div>
+                    <div class="arrow-row">➡️</div>
+                    <div class="example-chip meaning">“The average temperature
+                        this week was 27.5°C.”</div>
+                </div>
+                <div class="key-points">
+                    <h3>💡 Key Idea</h3>
+                    <ul>
+                        <li>Information is <strong>data with context and
+                                meaning</strong>.</li>
+                        <li>It helps us <strong>answer questions</strong> and
+                            <strong>make decisions</strong>.</li>
+                        <li>We create information by <strong>processing</strong>
+                            raw data.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SECTION 3 · DATA VS INFORMATION -->
+            <section class="web-section">
+                <div class="web-section-header">
+                    <span class="step-tag">Part 3</span>
+                    <h2>Data <span style="color:#7fb3d8;">vs.</span>
+                        Information</h2>
+                </div>
+                <div class="info-grid">
+                    <div class="info-box data-box">
+                        <h3><span class="icon-lg">📦</span> Data</h3>
                         <ul>
-                            <li>Information is <strong>data with context and meaning</strong>.</li>
-                            <li>It helps us <strong>answer questions</strong> and <strong>make decisions</strong>.</li>
-                            <li>We create information by <strong>processing</strong> raw data.</li>
+                            <li>Raw facts</li>
+                            <li>No meaning yet</li>
+                            <li>Just numbers, words, or observations</li>
+                            <li><strong>Example:</strong> 25, 30, 28, 27</li>
+                        </ul>
+                    </div>
+                    <div class="info-box info-box2">
+                        <h3><span class="icon-lg">💡</span> Information</h3>
+                        <ul>
+                            <li>Data that has been organised</li>
+                            <li>Has meaning and context</li>
+                            <li>Helps us understand and decide</li>
+                            <li><strong>Example:</strong> “The average
+                                temperature this week was 27.5°C.”</li>
                         </ul>
                     </div>
                 </div>
-            </section>
-
-            <!-- SLIDE 4 · DATA VS INFORMATION -->
-            <section class="slide" id="slide-4">
-                <div class="slide-header">
-                    <span class="slide-num">PART 3</span>
-                    <h2>Data <span style="color:#7fb3d8;">vs.</span> Information</h2>
-                    <div class="title-divider"></div>
-                </div>
-                <div class="slide-body">
-                    <div class="info-grid">
-                        <div class="info-box data-box">
-                            <h3><span class="icon-lg">📦</span> Data</h3>
-                            <ul>
-                                <li>Raw facts</li>
-                                <li>No meaning yet</li>
-                                <li>Just numbers, words, or observations</li>
-                                <li><strong>Example:</strong> 25, 30, 28, 27</li>
-                            </ul>
-                        </div>
-                        <div class="info-box info-box2">
-                            <h3><span class="icon-lg">💡</span> Information</h3>
-                            <ul>
-                                <li>Data that has been organised</li>
-                                <li>Has meaning and context</li>
-                                <li>Helps us understand and decide</li>
-                                <li><strong>Example:</strong> “The average temperature this week was 27.5°C.”</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="discussion-box">
-                        <h3>🤔 Think About It</h3>
-                        <ul>
-                            <li>Which one can you use to make a decision — data or information?</li>
-                            <li>Can the same data become different information in different situations?</li>
-                            <li>Why is it important to know the difference?</li>
-                        </ul>
-                    </div>
+                <div class="discussion-box">
+                    <h3>🤔 Think About It</h3>
+                    <ul>
+                        <li>Which one can you use to make a decision — data or
+                            information?</li>
+                        <li>Can the same data become different information in
+                            different situations?</li>
+                        <li>Why is it important to know the difference?</li>
+                    </ul>
                 </div>
             </section>
 
-            <!-- SLIDE 5 · WHY DATA MATTERS -->
-            <section class="slide" id="slide-5">
-                <div class="slide-header">
-                    <span class="slide-num">PART 4</span>
+            <!-- SECTION 4 · WHY DATA MATTERS -->
+            <section class="web-section">
+                <div class="web-section-header">
+                    <span class="step-tag">Part 4</span>
                     <h2>Why Data Matters in Daily Life</h2>
-                    <div class="title-divider"></div>
                 </div>
-                <div class="slide-body">
-                    <p style="text-align:center; font-size:1.15rem; margin-bottom:1.5rem;">
-                        Data is <strong>everywhere</strong>. It helps us understand the world and make better choices.
-                    </p>
-                    <div class="life-grid">
-                        <div class="life-card">
-                            <div class="life-icon">🌦️</div>
-                            <h4>Weather</h4>
-                            <p>Temperature and rainfall data help us plan our day.</p>
-                        </div>
-                        <div class="life-card">
-                            <div class="life-icon">🛒</div>
-                            <h4>Shopping</h4>
-                            <p>Prices and sales data help us budget and compare.</p>
-                        </div>
-                        <div class="life-card">
-                            <div class="life-icon">🏥</div>
-                            <h4>Health</h4>
-                            <p>Heart rate and step data help us stay fit.</p>
-                        </div>
-                        <div class="life-card">
-                            <div class="life-icon">🏫</div>
-                            <h4>School</h4>
-                            <p>Test scores show us where to improve.</p>
-                        </div>
-                        <div class="life-card">
-                            <div class="life-icon">⚽</div>
-                            <h4>Sports</h4>
-                            <p>Goals and stats help coaches make decisions.</p>
-                        </div>
-                        <div class="life-card">
-                            <div class="life-icon">📱</div>
-                            <h4>Social Media</h4>
-                            <p>Likes and views show what people enjoy.</p>
-                        </div>
+                <p style="text-align:center; font-size:1.1rem;">
+                    Data is <strong>everywhere</strong>. It helps us understand
+                    the world and make better choices.
+                </p>
+                <div class="life-grid">
+                    <div class="life-card">
+                        <div class="life-icon">🌦️</div>
+                        <h4>Weather</h4>
+                        <p>Temperature and rainfall data help us plan our
+                            day.</p>
                     </div>
-                    <div class="key-points">
-                        <h3>💡 Key Idea</h3>
-                        <ul>
-                            <li>Data helps us <strong>understand</strong>, <strong>compare</strong>, and <strong>decide</strong>.</li>
-                            <li>It turns everyday observations into useful knowledge.</li>
-                        </ul>
+                    <div class="life-card">
+                        <div class="life-icon">🛒</div>
+                        <h4>Shopping</h4>
+                        <p>Prices and sales data help us budget and compare.</p>
                     </div>
+                    <div class="life-card">
+                        <div class="life-icon">🏥</div>
+                        <h4>Health</h4>
+                        <p>Heart rate and step data help us stay fit.</p>
+                    </div>
+                    <div class="life-card">
+                        <div class="life-icon">🏫</div>
+                        <h4>School</h4>
+                        <p>Test scores show us where to improve.</p>
+                    </div>
+                    <div class="life-card">
+                        <div class="life-icon">⚽</div>
+                        <h4>Sports</h4>
+                        <p>Goals and stats help coaches make decisions.</p>
+                    </div>
+                    <div class="life-card">
+                        <div class="life-icon">📱</div>
+                        <h4>Social Media</h4>
+                        <p>Likes and views show what people enjoy.</p>
+                    </div>
+                </div>
+                <div class="key-points">
+                    <h3>💡 Key Idea</h3>
+                    <ul>
+                        <li>Data helps us <strong>understand</strong>,
+                            <strong>compare</strong>, and
+                            <strong>decide</strong>.</li>
+                        <li>It turns everyday observations into useful
+                            knowledge.</li>
+                    </ul>
                 </div>
             </section>
 
-            <!-- SLIDE 6 · THE DATA CYCLE -->
-            <section class="slide" id="slide-6">
-                <div class="slide-header">
-                    <span class="slide-num">PART 5</span>
+            <!-- SECTION 5 · THE DATA CYCLE -->
+            <section class="web-section">
+                <div class="web-section-header">
+                    <span class="step-tag">Part 5</span>
                     <h2>The Data Cycle</h2>
-                    <div class="title-divider"></div>
                 </div>
-                <div class="slide-body">
-                    <p style="text-align:center; font-size:1.15rem; margin-bottom:1rem;">
-                        Every data task follows the same <strong>four steps</strong>:
-                    </p>
-                    <div class="cycle-flow">
-                        <div class="cycle-card">
-                            <div class="step-num">1</div>
-                            <div class="cycle-icon">📥</div>
-                            <h4>Collect</h4>
-                            <p>Gather raw data using surveys, observations, or experiments.</p>
-                        </div>
-                        <div class="cycle-arrow">→</div>
-                        <div class="cycle-card">
-                            <div class="step-num">2</div>
-                            <div class="cycle-icon">⚙️</div>
-                            <h4>Process</h4>
-                            <p>Organise, sort, count, and calculate to turn data into information.</p>
-                        </div>
-                        <div class="cycle-arrow">→</div>
-                        <div class="cycle-card">
-                            <div class="step-num">3</div>
-                            <div class="cycle-icon">🔍</div>
-                            <h4>Evaluate</h4>
-                            <p>Check if the data is accurate, complete, fair, and relevant.</p>
-                        </div>
-                        <div class="cycle-arrow">→</div>
-                        <div class="cycle-card">
-                            <div class="step-num">4</div>
-                            <div class="cycle-icon">📢</div>
-                            <h4>Present</h4>
-                            <p>Share your findings clearly using charts, tables, or reports.</p>
-                        </div>
+                <p style="text-align:center; font-size:1.1rem;">
+                    Every data task follows the same <strong>four
+                        steps</strong>:
+                </p>
+                <div class="cycle-flow">
+                    <div class="cycle-card">
+                        <div class="step-num">1</div>
+                        <div class="cycle-icon">📥</div>
+                        <h4>Collect</h4>
+                        <p>Gather raw data using surveys, observations, or
+                            experiments.</p>
                     </div>
-                    <div class="key-points">
-                        <h3>💡 Key Idea</h3>
-                        <ul>
-                            <li>The data cycle is a <strong>loop</strong> — we often go back and collect more data.</li>
-                            <li>Every step is important — skipping one weakens the result.</li>
-                        </ul>
+                    <div class="cycle-arrow">→</div>
+                    <div class="cycle-card">
+                        <div class="step-num">2</div>
+                        <div class="cycle-icon">⚙️</div>
+                        <h4>Process</h4>
+                        <p>Organise, sort, count, and calculate to turn data
+                            into information.</p>
                     </div>
+                    <div class="cycle-arrow">→</div>
+                    <div class="cycle-card">
+                        <div class="step-num">3</div>
+                        <div class="cycle-icon">🔍</div>
+                        <h4>Evaluate</h4>
+                        <p>Check if the data is accurate, complete, fair, and
+                            relevant.</p>
+                    </div>
+                    <div class="cycle-arrow">→</div>
+                    <div class="cycle-card">
+                        <div class="step-num">4</div>
+                        <div class="cycle-icon">📢</div>
+                        <h4>Present</h4>
+                        <p>Share your findings clearly using charts, tables, or
+                            reports.</p>
+                    </div>
+                </div>
+                <div class="key-points">
+                    <h3>💡 Key Idea</h3>
+                    <ul>
+                        <li>The data cycle is a <strong>loop</strong> — we often
+                            go back and collect more data.</li>
+                        <li>Every step is important — skipping one weakens the
+                            result.</li>
+                    </ul>
                 </div>
             </section>
 
-            <!-- SLIDE 7 · ACTIVITY -->
-            <section class="slide" id="slide-7">
-                <div class="slide-header">
-                    <span class="slide-num">ACTIVITY</span>
+            <!-- SECTION 6 · ACTIVITY -->
+            <section class="web-section">
+                <div class="web-section-header">
+                    <span class="step-tag">Activity</span>
                     <h2>Let's Practise! 🎯</h2>
-                    <div class="title-divider"></div>
                 </div>
-                <div class="slide-body">
-                    <div class="activity-box">
-                        <h3>📝 Activity 1: Data or Information?</h3>
-                        <ol>
-                            <li>“32, 28, 30, 35” — is this <strong>data</strong> or <strong>information</strong>? Why?</li>
-                            <li>“The average class score was 78%.” — data or information?</li>
-                            <li>Write your own example of <strong>data</strong>.</li>
-                            <li>Turn your data into a sentence that makes it <strong>information</strong>.</li>
-                        </ol>
-                    </div>
-                    <div class="activity-box">
-                        <h3>🔍 Activity 2: Spot the Data Cycle</h3>
-                        <ol>
-                            <li>Think of a time you collected data (e.g., counting your steps).</li>
-                            <li>Which of the four steps did you do?</li>
-                            <li>Which steps did you skip? What could you improve?</li>
-                        </ol>
-                    </div>
-                    <div class="discussion-box">
-                        <h3>💬 Class Discussion</h3>
-                        <ul>
-                            <li>Can you think of a time when data was misleading?</li>
-                            <li>Why do we need to <strong>evaluate</strong> data before presenting it?</li>
-                            <li>How could the data cycle help you in a school project?</li>
-                        </ul>
-                    </div>
+                <div class="activity-box">
+                    <h3>📝 Activity 1: Data or Information?</h3>
+                    <ol>
+                        <li>“32, 28, 30, 35” — is this <strong>data</strong> or
+                            <strong>information</strong>? Why?</li>
+                        <li>“The average class score was 78%.” — data or
+                            information?</li>
+                        <li>Write your own example of
+                            <strong>data</strong>.</li>
+                        <li>Turn your data into a sentence that makes it
+                            <strong>information</strong>.</li>
+                    </ol>
+                </div>
+                <div class="activity-box">
+                    <h3>🔍 Activity 2: Spot the Data Cycle</h3>
+                    <ol>
+                        <li>Think of a time you collected data (e.g., counting
+                            your steps).</li>
+                        <li>Which of the four steps did you do?</li>
+                        <li>Which steps did you skip? What could you
+                            improve?</li>
+                    </ol>
+                </div>
+                <div class="discussion-box">
+                    <h3>💬 Class Discussion</h3>
+                    <ul>
+                        <li>Can you think of a time when data was
+                            misleading?</li>
+                        <li>Why do we need to <strong>evaluate</strong> data
+                            before presenting it?</li>
+                        <li>How could the data cycle help you in a school
+                            project?</li>
+                    </ul>
                 </div>
             </section>
 
-            <!-- SLIDE 8 · SUMMARY -->
-            <section class="slide" id="slide-8">
-                <div class="slide-header">
-                    <span class="slide-num">SUMMARY</span>
+            <!-- SECTION 7 · SUMMARY -->
+            <section class="web-section">
+                <div class="web-section-header">
+                    <span class="step-tag">Summary</span>
                     <h2>What We Learned Today</h2>
-                    <div class="title-divider"></div>
                 </div>
-                <div class="slide-body">
-                    <div class="key-points">
-                        <h3>📌 Key Takeaways</h3>
-                        <ul>
-                            <li><strong>Data</strong> = raw facts (numbers, words, observations) with no meaning yet.</li>
-                            <li><strong>Information</strong> = data that has been organised and given meaning.</li>
-                            <li>Data becomes information when we <strong>process</strong> it.</li>
-                            <li>Data matters in <strong>weather, shopping, health, school, sports</strong>, and more.</li>
-                            <li>The <strong>data cycle</strong> = Collect → Process → Evaluate → Present.</li>
-                        </ul>
-                    </div>
-                    <div class="outcome-banner">
-                        <span class="outcome-icon">🎓</span>
-                        <span><strong>Student Outcome:</strong> You can now explain the difference between data and information, and describe the four steps of the data cycle.</span>
-                    </div>
+                <div class="key-points">
+                    <h3>📌 Key Takeaways</h3>
+                    <ul>
+                        <li><strong>Data</strong> = raw facts (numbers, words,
+                            observations) with no meaning yet.</li>
+                        <li><strong>Information</strong> = data that has been
+                            organised and given meaning.</li>
+                        <li>Data becomes information when we
+                            <strong>process</strong> it.</li>
+                        <li>Data matters in <strong>weather, shopping, health,
+                                school, sports</strong>, and more.</li>
+                        <li>The <strong>data cycle</strong> = Collect → Process
+                            → Evaluate → Present.</li>
+                    </ul>
+                </div>
+                <div class="outcome-banner">
+                    <span class="outcome-icon">🎓</span>
+                    <span><strong>Student Outcome:</strong> You can now explain
+                        the difference between data and information, and
+                        describe the four steps of the data cycle.</span>
                 </div>
             </section>
 
-            <!-- NAV -->
-            <div class="slide-nav">
-                <button class="nav-btn secondary" id="prevBtn" onclick="changeSlide(-1)">← Previous</button>
-                <span class="slide-counter" id="counter">Slide 1 / 8</span>
-                <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)">Next →</button>
-            </div>
-            <div class="progress-bar">
-                <div class="progress-fill" id="progressFill" style="width: 12.5%;"></div>
+            <!-- ============================================================ -->
+            <!-- TEACHER INSTRUCTIONS SECTION (SIMPLE)                        -->
+            <!-- ============================================================ -->
+            <section class="teacher-section" id="teacher-instructions">
+                <div class="teacher-header">
+                    <span class="teacher-icon">👩‍🏫</span>
+                    <h2>Teacher Instructions</h2>
+                </div>
+                <div class="teacher-body">
+                    <div class="teacher-note" contenteditable="true">
+                        Take the ZipGrade quiz.<br>
+                        Submit the work on time.
+                        Use Canva to enhance your report. Create a consistent
+                        theme throughout.
+                    </div>
+                    <span class="edit-hint">✏️ Click to edit. Changes are
+                        temporary (refresh will reset).</span>
+                </div>
+            </section>
+
+            <!-- CTA to start presentation -->
+            <div class="present-cta">
+                <h3>🎬 Ready to present?</h3>
+                <p>Switch to full-screen presentation mode with slides and
+                    keyboard navigation.</p>
+                <button class="start-btn" onclick="startPresentation()">▶ Start
+                    Presentation</button>
             </div>
         </div>
-    </div>
 
-    <script>
+        <!-- ============================================================ -->
+        <!--  PRESENTATION MODE                                           -->
+        <!-- ============================================================ -->
+        <div class="presentation" id="presentationView">
+            <div class="presentation-inner">
+
+                <button class="exit-btn" onclick="exitPresentation()">✕ Exit
+                    Presentation</button>
+
+                <!-- SLIDE 1 · TITLE -->
+                <section class="slide active" id="slide-1">
+                    <div class="hero-slide">
+                        <div class="big-icon">📊🔍</div>
+                        <h1>Introduction to Data<br>&amp; Information</h1>
+                        <p class="hero-sub">Grade 7 · Data Detectives Unit</p>
+                        <div class="hero-tagline">
+                            💬 “Data tells a story. Your job is to find it,
+                            check it, and tell it clearly.”
+                        </div>
+                        <div class="hero-badges">
+                            <div class="hero-badge"><span>📥</span>
+                                Collect</div>
+                            <div class="hero-badge"><span>⚙️</span>
+                                Process</div>
+                            <div class="hero-badge"><span>🔍</span>
+                                Evaluate</div>
+                            <div class="hero-badge"><span>📢</span>
+                                Present</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SLIDE 2 · WHAT IS DATA -->
+                <section class="slide" id="slide-2">
+                    <div class="slide-header">
+                        <span class="slide-num">PART 1</span>
+                        <h2>What is <span
+                                style="color:#1e6f9f;">Data</span>?</h2>
+                        <div class="title-divider"></div>
+                    </div>
+                    <div class="slide-body">
+                        <p
+                            style="font-size:1.2rem; text-align:center; margin-bottom:1.5rem;">
+                            <strong>Data</strong> is a collection of <strong>raw
+                                facts</strong> — numbers, words, or observations
+                            — with no meaning attached yet.
+                        </p>
+                        <div class="info-grid">
+                            <div class="info-box data-box">
+                                <h3><span class="icon-lg">🔢</span> Numbers</h3>
+                                <ul>
+                                    <li>25, 30, 28, 27</li>
+                                    <li>87, 92, 78, 85</li>
+                                    <li>3.5, 4.2, 3.9</li>
+                                </ul>
+                            </div>
+                            <div class="info-box data-box">
+                                <h3><span class="icon-lg">📝</span> Words &amp;
+                                    Labels</h3>
+                                <ul>
+                                    <li>Apple, Banana, Orange</li>
+                                    <li>Red, Blue, Green</li>
+                                    <li>Yes, No, Maybe</li>
+                                </ul>
+                            </div>
+                            <div class="info-box data-box">
+                                <h3><span class="icon-lg">👀</span>
+                                    Observations</h3>
+                                <ul>
+                                    <li>“It rained today.”</li>
+                                    <li>“20 students raised their hands.”</li>
+                                    <li>“The plant grew 2 cm.”</li>
+                                </ul>
+                            </div>
+                            <div class="info-box data-box">
+                                <h3><span class="icon-lg">📋</span> Lists &amp;
+                                    Records</h3>
+                                <ul>
+                                    <li>Names on a class roll</li>
+                                    <li>Scores in a gradebook</li>
+                                    <li>Steps counted on a watch</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="key-points">
+                            <h3>💡 Key Idea</h3>
+                            <ul>
+                                <li>Data is <strong>raw</strong> — it has not
+                                    been organised or explained yet.</li>
+                                <li>On its own, data does <strong>not</strong>
+                                    tell us much.</li>
+                                <li>We need to <strong>process</strong> data to
+                                    turn it into something useful.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SLIDE 3 · WHAT IS INFORMATION -->
+                <section class="slide" id="slide-3">
+                    <div class="slide-header">
+                        <span class="slide-num">PART 2</span>
+                        <h2>What is <span
+                                style="color:#0f7a4d;">Information</span>?</h2>
+                        <div class="title-divider"></div>
+                    </div>
+                    <div class="slide-body">
+                        <p
+                            style="font-size:1.2rem; text-align:center; margin-bottom:1.5rem;">
+                            <strong>Information</strong> is <strong>data that
+                                has been organised and given meaning</strong> —
+                            so we can understand it and use it.
+                        </p>
+                        <div class="info-grid">
+                            <div class="info-box info-box2">
+                                <h3><span class="icon-lg">🧠</span> Data +
+                                    Meaning</h3>
+                                <p>When we sort, count, average, or explain
+                                    data, it becomes information.</p>
+                            </div>
+                            <div class="info-box info-box2">
+                                <h3><span class="icon-lg">🎯</span> Useful &amp;
+                                    Clear</h3>
+                                <p>Information answers questions and helps us
+                                    make decisions.</p>
+                            </div>
+                        </div>
+                        <div class="example-strip">
+                            <div class="example-chip">25, 30, 28, 27</div>
+                            <div class="arrow-row">➡️</div>
+                            <div class="example-chip meaning">“The average
+                                temperature this week was 27.5°C.”</div>
+                        </div>
+                        <div class="key-points">
+                            <h3>💡 Key Idea</h3>
+                            <ul>
+                                <li>Information is <strong>data with context and
+                                        meaning</strong>.</li>
+                                <li>It helps us <strong>answer
+                                        questions</strong> and <strong>make
+                                        decisions</strong>.</li>
+                                <li>We create information by
+                                    <strong>processing</strong> raw data.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SLIDE 4 · DATA VS INFORMATION -->
+                <section class="slide" id="slide-4">
+                    <div class="slide-header">
+                        <span class="slide-num">PART 3</span>
+                        <h2>Data <span style="color:#7fb3d8;">vs.</span>
+                            Information</h2>
+                        <div class="title-divider"></div>
+                    </div>
+                    <div class="slide-body">
+                        <div class="info-grid">
+                            <div class="info-box data-box">
+                                <h3><span class="icon-lg">📦</span> Data</h3>
+                                <ul>
+                                    <li>Raw facts</li>
+                                    <li>No meaning yet</li>
+                                    <li>Just numbers, words, or
+                                        observations</li>
+                                    <li><strong>Example:</strong> 25, 30, 28,
+                                        27</li>
+                                </ul>
+                            </div>
+                            <div class="info-box info-box2">
+                                <h3><span class="icon-lg">💡</span>
+                                    Information</h3>
+                                <ul>
+                                    <li>Data that has been organised</li>
+                                    <li>Has meaning and context</li>
+                                    <li>Helps us understand and decide</li>
+                                    <li><strong>Example:</strong> “The average
+                                        temperature this week was 27.5°C.”</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="discussion-box">
+                            <h3>🤔 Think About It</h3>
+                            <ul>
+                                <li>Which one can you use to make a decision —
+                                    data or information?</li>
+                                <li>Can the same data become different
+                                    information in different situations?</li>
+                                <li>Why is it important to know the
+                                    difference?</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SLIDE 5 · WHY DATA MATTERS -->
+                <section class="slide" id="slide-5">
+                    <div class="slide-header">
+                        <span class="slide-num">PART 4</span>
+                        <h2>Why Data Matters in Daily Life</h2>
+                        <div class="title-divider"></div>
+                    </div>
+                    <div class="slide-body">
+                        <p
+                            style="text-align:center; font-size:1.15rem; margin-bottom:1.5rem;">
+                            Data is <strong>everywhere</strong>. It helps us
+                            understand the world and make better choices.
+                        </p>
+                        <div class="life-grid">
+                            <div class="life-card">
+                                <div class="life-icon">🌦️</div>
+                                <h4>Weather</h4>
+                                <p>Temperature and rainfall data help us plan
+                                    our day.</p>
+                            </div>
+                            <div class="life-card">
+                                <div class="life-icon">🛒</div>
+                                <h4>Shopping</h4>
+                                <p>Prices and sales data help us budget and
+                                    compare.</p>
+                            </div>
+                            <div class="life-card">
+                                <div class="life-icon">🏥</div>
+                                <h4>Health</h4>
+                                <p>Heart rate and step data help us stay
+                                    fit.</p>
+                            </div>
+                            <div class="life-card">
+                                <div class="life-icon">🏫</div>
+                                <h4>School</h4>
+                                <p>Test scores show us where to improve.</p>
+                            </div>
+                            <div class="life-card">
+                                <div class="life-icon">⚽</div>
+                                <h4>Sports</h4>
+                                <p>Goals and stats help coaches make
+                                    decisions.</p>
+                            </div>
+                            <div class="life-card">
+                                <div class="life-icon">📱</div>
+                                <h4>Social Media</h4>
+                                <p>Likes and views show what people enjoy.</p>
+                            </div>
+                        </div>
+                        <div class="key-points">
+                            <h3>💡 Key Idea</h3>
+                            <ul>
+                                <li>Data helps us <strong>understand</strong>,
+                                    <strong>compare</strong>, and
+                                    <strong>decide</strong>.</li>
+                                <li>It turns everyday observations into useful
+                                    knowledge.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SLIDE 6 · THE DATA CYCLE -->
+                <section class="slide" id="slide-6">
+                    <div class="slide-header">
+                        <span class="slide-num">PART 5</span>
+                        <h2>The Data Cycle</h2>
+                        <div class="title-divider"></div>
+                    </div>
+                    <div class="slide-body">
+                        <p
+                            style="text-align:center; font-size:1.15rem; margin-bottom:1rem;">
+                            Every data task follows the same <strong>four
+                                steps</strong>:
+                        </p>
+                        <div class="cycle-flow">
+                            <div class="cycle-card">
+                                <div class="step-num">1</div>
+                                <div class="cycle-icon">📥</div>
+                                <h4>Collect</h4>
+                                <p>Gather raw data using surveys, observations,
+                                    or experiments.</p>
+                            </div>
+                            <div class="cycle-arrow">→</div>
+                            <div class="cycle-card">
+                                <div class="step-num">2</div>
+                                <div class="cycle-icon">⚙️</div>
+                                <h4>Process</h4>
+                                <p>Organise, sort, count, and calculate to turn
+                                    data into information.</p>
+                            </div>
+                            <div class="cycle-arrow">→</div>
+                            <div class="cycle-card">
+                                <div class="step-num">3</div>
+                                <div class="cycle-icon">🔍</div>
+                                <h4>Evaluate</h4>
+                                <p>Check if the data is accurate, complete,
+                                    fair, and relevant.</p>
+                            </div>
+                            <div class="cycle-arrow">→</div>
+                            <div class="cycle-card">
+                                <div class="step-num">4</div>
+                                <div class="cycle-icon">📢</div>
+                                <h4>Present</h4>
+                                <p>Share your findings clearly using charts,
+                                    tables, or reports.</p>
+                            </div>
+                        </div>
+                        <div class="key-points">
+                            <h3>💡 Key Idea</h3>
+                            <ul>
+                                <li>The data cycle is a <strong>loop</strong> —
+                                    we often go back and collect more data.</li>
+                                <li>Every step is important — skipping one
+                                    weakens the result.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SLIDE 7 · ACTIVITY -->
+                <section class="slide" id="slide-7">
+                    <div class="slide-header">
+                        <span class="slide-num">ACTIVITY</span>
+                        <h2>Let's Practise! 🎯</h2>
+                        <div class="title-divider"></div>
+                    </div>
+                    <div class="slide-body">
+                        <div class="activity-box">
+                            <h3>📝 Activity 1: Data or Information?</h3>
+                            <ol>
+                                <li>“32, 28, 30, 35” — is this
+                                    <strong>data</strong> or
+                                    <strong>information</strong>? Why?</li>
+                                <li>“The average class score was 78%.” — data or
+                                    information?</li>
+                                <li>Write your own example of
+                                    <strong>data</strong>.</li>
+                                <li>Turn your data into a sentence that makes it
+                                    <strong>information</strong>.</li>
+                            </ol>
+                        </div>
+                        <div class="activity-box">
+                            <h3>🔍 Activity 2: Spot the Data Cycle</h3>
+                            <ol>
+                                <li>Think of a time you collected data (e.g.,
+                                    counting your steps).</li>
+                                <li>Which of the four steps did you do?</li>
+                                <li>Which steps did you skip? What could you
+                                    improve?</li>
+                            </ol>
+                        </div>
+                        <div class="discussion-box">
+                            <h3>💬 Class Discussion</h3>
+                            <ul>
+                                <li>Can you think of a time when data was
+                                    misleading?</li>
+                                <li>Why do we need to <strong>evaluate</strong>
+                                    data before presenting it?</li>
+                                <li>How could the data cycle help you in a
+                                    school project?</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SLIDE 8 · SUMMARY -->
+                <section class="slide" id="slide-8">
+                    <div class="slide-header">
+                        <span class="slide-num">SUMMARY</span>
+                        <h2>What We Learned Today</h2>
+                        <div class="title-divider"></div>
+                    </div>
+                    <div class="slide-body">
+                        <div class="key-points">
+                            <h3>📌 Key Takeaways</h3>
+                            <ul>
+                                <li><strong>Data</strong> = raw facts (numbers,
+                                    words, observations) with no meaning
+                                    yet.</li>
+                                <li><strong>Information</strong> = data that has
+                                    been organised and given meaning.</li>
+                                <li>Data becomes information when we
+                                    <strong>process</strong> it.</li>
+                                <li>Data matters in <strong>weather, shopping,
+                                        health, school, sports</strong>, and
+                                    more.</li>
+                                <li>The <strong>data cycle</strong> = Collect →
+                                    Process → Evaluate → Present.</li>
+                            </ul>
+                        </div>
+                        <div class="outcome-banner">
+                            <span class="outcome-icon">🎓</span>
+                            <span><strong>Student Outcome:</strong> You can now
+                                explain the difference between data and
+                                information, and describe the four steps of the
+                                data cycle.</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- NAV -->
+                <div class="slide-nav">
+                    <button class="nav-btn secondary" id="prevBtn"
+                        onclick="changeSlide(-1)">← Previous</button>
+                    <span class="slide-counter" id="counter">Slide 1 / 8</span>
+                    <button class="nav-btn" id="nextBtn"
+                        onclick="changeSlide(1)">Next →</button>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"
+                        style="width: 12.5%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <script>
         // ===== PRESENTATION MODE =====
         const slides = document.querySelectorAll('.slide');
         const counter = document.getElementById('counter');
@@ -1659,5 +1792,5 @@
 
         showSlide(0);
     </script>
-</body>
+    </body>
 </html>
